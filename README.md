@@ -36,9 +36,9 @@ No modules.
 
 ## Resources
 
-| Name                                                                                                            | Type     |
-| --------------------------------------------------------------------------------------------------------------- | -------- |
-| [aws_iam_policy.policy](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_policy) | resource |
+| Name                                                                                                            | Type                                                                                          |
+| --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| [aws_iam_policy.policy](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_policy) | An IAM policy that grants permissions to create and destroy a remote s3 backend for Terraform |
 
 ## Inputs
 
@@ -46,9 +46,9 @@ No inputs.
 
 ## Outputs
 
-| Name                                                  | Description |
-| ----------------------------------------------------- | ----------- |
-| <a name="output_policy"></a> [policy](#output_policy) | n/a         |
+| Name                                                  | Description                                             |
+| ----------------------------------------------------- | ------------------------------------------------------- |
+| <a name="output_policy"></a> [policy](#output_policy) | IAM Policy to create and destroy the the remote state . |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
