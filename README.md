@@ -10,6 +10,11 @@ module "remote_state_meta" {
 }
 ```
 
+It is intended to be use with the [remote-state-s3-backend](https://registry.terraform.io/modules/nozaq/remote-state-s3-backend/aws/latest) module. See this [blog post](https://sideprojekt.io/p/sidepjekt/blog/terraform-bootstrap-layer) for an example of how to use this module.
+
+```hcl title="main.tf"
+
+
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
@@ -43,3 +48,4 @@ No inputs.
 |------|-------------|
 | <a name="output_policy"></a> [policy](#output\_policy) | n/a |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+```
